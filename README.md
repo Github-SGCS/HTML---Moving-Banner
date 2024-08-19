@@ -19,11 +19,7 @@ this is to enhance the look of my website by adding some moving text
 
 <h2> The Script</h2>
 <p align="center">
-
-<!DOCTYPE html>
-<html lang="en">
-<img src=(https://github.com/user-attachments/assets/99c1b342-93bf-43a2-93d4-fa99fedc81ff)
-
+<img src=https://github.com/user-attachments/assets/99c1b342-93bf-43a2-93d4-fa99fedc81ff>
 <br />
 
 

@@ -22,7 +22,7 @@ this is to enhance the look of my website by adding some moving text
 
 <!DOCTYPE html>
 <html lang="en">
-![Screenshot 2024-08-19 at 14 42 04](https://github.com/user-attachments/assets/99c1b342-93bf-43a2-93d4-fa99fedc81ff)
+<img src=(https://github.com/user-attachments/assets/99c1b342-93bf-43a2-93d4-fa99fedc81ff)
 
 <br />
 

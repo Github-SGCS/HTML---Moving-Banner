@@ -19,7 +19,59 @@ this is to enhance the look of my website by adding some moving text
 
 <h2> The Script</h2>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/480420cc-2600-4dc4-9ab0-d22fbe584ab5">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #EDEDED;
+            font-family: Arial, sans-serif;
+        }
+        .marquee-container {
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            width: 100%;
+            background-color: #EDEDED;
+        }
+        .marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 15s linear infinite;
+        }
+        .marquee span {
+            padding: 0 2rem;
+            font-size: 1.5rem;
+        }
+        @keyframes marquee {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); } /* Adjusted to increase speed */
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee-container">
+        <div class="marquee">
+            <span>Defender</span>
+            <span>Intune</span>
+            <span>Entra</span>
+            <span>Cisco Umbrella</span>
+            <span>Mimecast</span>
+            <span>Defender</span> <!-- Repeated to ensure continuous loop -->
+            <span>Intune</span>
+            <span>Entra</span>
+            <span>Cisco Umbrella</span>
+            <span>Mimecast</span>
+        </div>
+    </div>
+</body>
+</html>
+
 <br />
 
 
